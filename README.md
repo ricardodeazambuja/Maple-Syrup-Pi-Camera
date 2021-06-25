@@ -15,7 +15,7 @@
 
 ### Software
 #### **The easy way**
-* Download the image available here and flash it to your card using the [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/).
+* Download the image available [here](https://github.com/ricardodeazambuja/Maple-Syrup-Pi-Camera/releases/download/v0.1/maplesyruppicam.img.gz) and flash it to your card using the [Raspberry Pi Imager](https://www.raspberrypi.org/blog/raspberry-pi-imager-imaging-utility/).
 * The image available in this repo has lots of interesting stuff pre-installed and its default user is ```pi``` and password ```maplesyrup``` (yup, I love maplesyrup).
 * Another interesting thing available is the Jupyter Notebook Server. It helps a lot while testing things. You can launch it by running ```/home/pi/launch_jupyter.sh``` (it's slow at times, but very much usable) and the password is again ```maplesyrup``` (your browser will complain saying it's not a secure connection because the [server is using a self-signed certificate](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html)). 
 
