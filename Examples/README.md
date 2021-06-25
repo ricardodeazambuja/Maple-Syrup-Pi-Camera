@@ -79,8 +79,8 @@ python classify_from_cam.py   --model test_data/mobilenet_v2_1.0_224_inat_plant_
 ```
 
 ## Models prepared for this camera:
-* [MultiPose](https://github.com/ricardodeazambuja/MultiPose-EdgeTPU-RPI0)
-* [Automatic License Plate Recognition - shows how to modify TFLite models](https://github.com/ricardodeazambuja/ALPR-EdgeTPU-RPI0)
+* [MultiPose - shows how to convert a TensorFlow.js model to TFLite](https://github.com/ricardodeazambuja/MultiPose-EdgeTPU-RPI0)
+* [Automatic License Plate Recognition - shows how to directly modify TFLite models](https://github.com/ricardodeazambuja/ALPR-EdgeTPU-RPI0)
 * [Face Mask Detection (Mask, No Mask, Poor Mask) - also useful as a base for training other object detectors](https://github.com/ricardodeazambuja/MaskDetection-EdgeTPU-RPI0)
 
 ## Other possible sources for TFLite models:
