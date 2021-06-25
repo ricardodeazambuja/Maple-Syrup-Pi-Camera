@@ -11,7 +11,7 @@
 * [Coral USB Accelerator](https://coral.ai/products/accelerator)
 * [USB-C to micro USB cable](https://www.amazon.co.uk/gp/product/B07WW4J5ZN/) (or [adapter](https://www.amazon.co.uk/ARKTEK-female-Adapter-Samsung-Galaxy-USB-C-Micro/dp/B071W8WQBD/))
 * Micro SDCard (if you want to use our image it's recommended 8GB)
-* [3D printed parts](3D_files/README.md)
+* [3D printed parts](3D_files/)
 
 ### Software
 #### **The easy way**
@@ -32,7 +32,7 @@
 * [MultiPose](https://github.com/ricardodeazambuja/MultiPose-EdgeTPU-RPI0)
 * [Automatic License Plate Recognition](https://github.com/ricardodeazambuja/ALPR-EdgeTPU-RPI0)
 * [Face Mask Detection (Mask, No Mask, Poor Mask)](https://github.com/ricardodeazambuja/MaskDetection-EdgeTPU-RPI0)
-* [Examples already installed in the SDCard image](Examples/README.md)
+* [Examples already installed in the SDCard image](Examples/)
 ## Speed
 The RPI Zero W has a USB 2.0 connection with a theoretical 480Mbit/s (50MB/s) speed, but it will never get close to that because the RPI has a single core ARMv6 CPU (no free lunch!).
 ## Power consumption:
