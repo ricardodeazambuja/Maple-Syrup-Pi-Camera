@@ -3,6 +3,8 @@
 
 ![Maple-Syrup-Pi-Camera](imgs/Maple-Syrup-Pi-Camera.png)
 
+People ask me the reason I chose to use the Raspberry Pi Zero for this project considering it's not a powerful single-board computer. I could have tried ready-made smart cameras, but the Raspberry Pi is one of the best selling general purpose computers ever [(beating the Commodore 64, numbers from 4 years ago!)](https://magpi.raspberrypi.org/articles/raspberry-pi-sales), therefore it has a huge community. This makes life much easier when you need to find a driver or how to solve a problem. In addition to that, last year I released my work on a [flexible, collision resilient, quadcopter](https://thecognifly.github.io/) that has as its brain... a Raspberry Pi Zero W! So, I'm quite familiar working with the Zero and I hope the [Raspberry Pi Foundation](https://www.raspberrypi.org/) will soon come up with an upgrade (maybe adding a RP2040 to the RPI Zero PCB?).
+
 ## How to build your own
 
 ### Hardware
@@ -33,8 +35,10 @@
 * [Automatic License Plate Recognition](https://github.com/ricardodeazambuja/ALPR-EdgeTPU-RPI0)
 * [Face Mask Detection (Mask, No Mask, Poor Mask)](https://github.com/ricardodeazambuja/MaskDetection-EdgeTPU-RPI0)
 * [Examples already installed in the SDCard image](Examples/)
+
 ## Speed
-The RPI Zero W has a USB 2.0 connection with a theoretical 480Mbit/s (50MB/s) speed, but it will never get close to that because the RPI has a single core ARMv6 CPU (no free lunch!).
+The RPI Zero W has a USB 2.0 connection with a theoretical 480Mbit/s (50MB/s) speed, but it will never get close to that because the RPI has a single core ARMv6 CPU (no free lunch!). Therefore, the Google Coral USB Accelerator is very often limited by the USB bandwidth, or the ability of RPI0 to exchange data with it. This fact plays a role in keeping the average power consumption low, though. Models that need post-processing or use a custom OP (the EdgeTPU compiler runs these ops in the host) will also suffer from the small USB bandwidth and the weak ARMv6 single core.
+
 ## Power consumption:
 The RPI Zero W has no protection circuit on its 5V input, therefore it connects the USB power directly to the power supply. That means the Coral USB Accelerator will be directly connected to the power supply allowing it to drain as much current as the power supply and impedance of microUSB + PCB traces allow it. According to the [Google Coral USB Accelerator Datasheet](https://coral.ai/static/files/Coral-USB-Accelerator-datasheet.pdf), the accelerator alone could draw up to 900mA (peak). The RPI Zero W has a [typical power consumption of 150mA](https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md). In my experiments, the Maple-Syrup-Pi-Camera consumes around 160mA at 5V when idle (800mW).
 
