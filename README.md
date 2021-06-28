@@ -1,5 +1,5 @@
 # Maple-Syrup-Pi-Camera
-## Low power('ish) smart camera (3D printed) based on the Raspberry Pi Zero W and Google Coral EdgeTPU
+## Low power('ish) AIoT smart camera (3D printed) based on the Raspberry Pi Zero W and Google Coral EdgeTPU
 
 ![Maple-Syrup-Pi-Camera](imgs/Maple-Syrup-Pi-Camera.png)
 
