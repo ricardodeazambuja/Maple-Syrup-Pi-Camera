@@ -53,3 +53,4 @@ Using a hobby-grade USB power meter (and a power bank that states it can deliver
 * [Instructions on how to create RPI images using docker](https://ricardodeazambuja.com/rpi/2020/12/29/rpi2docker/)
 * Some models and project examples are from https://coral.ai/examples/ and https://github.com/google-coral/pycoral
 * SDCard image adapted from the collision resilient quadcopter [CogniFly](https://thecognifly.github.io/).
+* Life is just much easier thanks to [Netron](https://netron.app/)
