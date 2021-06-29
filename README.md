@@ -41,6 +41,7 @@ The RPI Zero W has a USB 2.0 connection with a theoretical 480Mbit/s (50MB/s) sp
 
 ## Power consumption:
 The RPI Zero W has no protection circuit on its 5V input, therefore it connects the USB power directly to the power supply. That means the Coral USB Accelerator will be directly connected to the power supply allowing it to drain as much current as the power supply and impedance of microUSB + PCB traces allow it. According to the [Google Coral USB Accelerator Datasheet](https://coral.ai/static/files/Coral-USB-Accelerator-datasheet.pdf), the accelerator alone could draw up to 900mA (peak). The RPI Zero W has a [typical power consumption of 150mA](https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md). In my experiments, the Maple-Syrup-Pi-Camera consumes around 160mA at 5V when idle (800mW).
+* Since the speed is limited by other factors than the Coral USB accelerator, it's possible to save energy by using [the throttled version of the libedgetpu](https://github.com/ricardodeazambuja/libedgetpu-rpi0/releases/tag/rpi0_tflite_edgetpu).
 
 ### Examples of power consumption:  
 Using a hobby-grade USB power meter (and a power bank that states it can deliver up to 2A at 5V):
