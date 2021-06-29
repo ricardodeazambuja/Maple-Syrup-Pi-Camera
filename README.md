@@ -1,4 +1,4 @@
-# Maple-Syrup-Pi-Camera
+# Maple Syrup Pi Camera
 ## Low power('ish) AIoT smart camera (3D printed) based on the Raspberry Pi Zero W and Google Coral EdgeTPU
 
 ![Maple-Syrup-Pi-Camera](imgs/Maple-Syrup-Pi-Camera.png)
@@ -58,3 +58,7 @@ Using a hobby-grade USB power meter (and a power bank that states it can deliver
 
 ## Disclaimer
 * Use it at your own risk and, please, [don't be evil](https://www.youtube.com/watch?v=b23wrRfy7SM) ;)
+
+---
+
+### This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 801215
