@@ -54,3 +54,6 @@ Using a hobby-grade USB power meter (and a power bank that states it can deliver
 * Some models and project examples are from https://coral.ai/examples/ and https://github.com/google-coral/pycoral
 * SDCard image adapted from the collision resilient quadcopter [CogniFly](https://thecognifly.github.io/).
 * Life is just much easier thanks to [Netron](https://netron.app/)
+
+## Disclaimer
+* Use it at your own risk and, please, [don't be evil](https://www.youtube.com/watch?v=b23wrRfy7SM) ;)
