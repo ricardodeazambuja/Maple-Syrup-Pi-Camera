@@ -57,6 +57,9 @@ Using a hobby-grade USB power meter (and a power bank that states it can deliver
 * Life is just much easier thanks to [Netron](https://netron.app/)
 
 ## Disclaimer
+* Don't expose it directly to the world-WILD-web (aka "[the internet](https://en.wikipedia.org/wiki/Internet)") without a good [firewall](https://en.wikipedia.org/wiki/Firewall_(computing)). Some suggestions:
+   * [Securing your Raspberry Pi](https://www.raspberrypi.org/documentation/configuration/security.md)
+   * [IoT Security Foundation](https://www.iotsecurityfoundation.org/best-practice-guidelines/)
 * Use it at your own risk and, please, [don't be evil](https://www.youtube.com/watch?v=b23wrRfy7SM) ;)
 
 ---
