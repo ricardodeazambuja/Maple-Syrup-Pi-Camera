@@ -35,6 +35,7 @@ People ask me the reason I chose to use the Raspberry Pi Zero for this project c
 * [Automatic License Plate Recognition](https://github.com/ricardodeazambuja/ALPR-EdgeTPU-RPI0)
 * [Face Mask Detection (Mask, No Mask, Poor Mask)](https://github.com/ricardodeazambuja/MaskDetection-EdgeTPU-RPI0)
 * [Examples already installed in the SDCard image](Examples/)
+* [Train your own Object Detector using TFLite Model Maker](https://github.com/ricardodeazambuja/Maple-Syrup-Pi-Camera/blob/main/Model_Maker_Object_Detection_Tutorial_modified_for_Maple_Syrup_Pi_Camera.ipynb)
 
 ## Speed
 The RPI Zero W has a USB 2.0 connection with a theoretical 480Mbit/s (50MB/s) speed, but it will never get close to that because the RPI0 has a single core ARMv6 CPU (no free lunch!). Therefore, the Google Coral USB Accelerator is very often limited by the USB bandwidth, or the ability of RPI0 to exchange data with it. This fact plays a role in keeping the average power consumption low, though. Models that need post-processing or use a custom OP (the EdgeTPU compiler runs these ops in the host) will also suffer from the small USB bandwidth and the weak ARMv6 single core.
