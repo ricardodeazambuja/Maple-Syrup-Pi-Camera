@@ -1,6 +1,6 @@
 # [Open Images](https://storage.googleapis.com/openimages/web/visualizer/index.html?set=train&type=detection&c=%2Fm%2F03bbps) 600 labels (object detection / bounding box) in alphabetical order
 
-## Train set
+## Training set
 | Labels 0 to 59 [totals]   | Labels 60 to 119 [totals]   | Labels 180 to 239 [totals]   | Labels 300 to 359 [totals]       | Labels 360 to 419 [totals]       | Labels 420 to 479 [totals]    | Labels 480 to 539 [totals]   | Labels 540 to 599 [totals]        |
 |---------------------------|-----------------------------|------------------------------|----------------------------------|----------------------------------|-------------------------------|------------------------------|-----------------------------------|
 | Accordion [955]           | Bowl [4507]                 | Envelope [177]               | Ladybug [734]                    | Oven [637]                       | Remote control [236]          | Spatula [64]                 | Tomato [6254]                     |
