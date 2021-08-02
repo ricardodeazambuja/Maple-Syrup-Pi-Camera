@@ -50,7 +50,9 @@ The RPI Zero W has no protection circuit on its 5V input, therefore it connects 
 Using a hobby-grade USB power meter (and a power bank that states it can deliver up to 2A at 5V):
 * [MultiPose](https://github.com/ricardodeazambuja/MultiPose-EdgeTPU-RPI0) shows peaks of 350mA at 5V (1.75W)
 * [Automatic License Plate Recognition](https://github.com/ricardodeazambuja/ALPR-EdgeTPU-RPI0) shows peaks of 400mA at 5V (2W)
-* [Face Mask Detection (Mask, No Mask, Poor Mask)](https://github.com/ricardodeazambuja/MaskDetection-EdgeTPU-RPI0) shows peaks of 420mA at 5V (2.1W)
+* [Face Mask Detection (Mask, No Mask, Poor Mask)](https://github.com/ricardodeazambuja/MaskDetection-EdgeTPU-RPI0) shows peaks of 420mA at 5V (2.1W)  
+
+The power consumption is kept low, compared to other products using the EdgeTPU, mainly because the RPI Zero is very low power and the Coral USB accelerator usually sits idle awaiting for data.
 
 ## Acknowledgments:
 * 3D parts adapted from https://www.thingiverse.com/thing:2254307
