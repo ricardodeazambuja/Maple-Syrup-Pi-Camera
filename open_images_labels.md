@@ -63,3 +63,8 @@
 | Bottle [40188]            | Cocktail [4458]             | Handbag [2495]               | Organ (Musical Instrument) [398] | Rays and skates [485]            | Sofa bed [1501]               | Toaster [73]                 | Wrench [204]                      |
 | Bottle opener [21]        | Cocktail shaker [27]        | Handgun [727]                | Ostrich [640]                    | Red panda [423]                  | Sombrero [651]                | Toilet [1099]                | Zebra [1120]                      |
 | Bow and arrow [594]       | Coconut [874]               | Harbor seal [2084]           | Otter [752]                      | Refrigerator [592]               | Sparrow [1651]                | Toilet paper [377]           | Zucchini [1098]                   |
+
+
+### Train your own model by following the steps on [this notebook](https://github.com/ricardodeazambuja/Maple-Syrup-Pi-Camera/blob/main/Model_Maker_Object_Detection_Tutorial_detect_heads_using_Open_Images_modified_for_Maple_Syrup_Pi_Camera.ipynb).
+
+### As some classes don't have a lot of samples available (e.g. "Cocktail shaker" has only 27, not sure why you would want a object detector trained on this, but I'm not here to judge :D), you may need to augment your dataset. One easy option is to use [colab_utils](https://github.com/ricardodeazambuja/colab_utils) `augment_dataset`. You can find a usage example on [this notebook](https://github.com/ricardodeazambuja/Maple-Syrup-Pi-Camera/blob/main/Model_Maker_Object_Detection_Tutorial_modified_for_Maple_Syrup_Pi_Camera.ipynb).
