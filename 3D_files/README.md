@@ -1,4 +1,8 @@
 # 3D Files
+<p align="center">
+<img src="https://user-images.githubusercontent.com/6606382/129368344-68ccc458-cac9-41ab-bf6e-68a453ae77b5.gif" />
+</p>
+
 STL files for 3D printing. All files are easy to print in any hobby grade printer. Gcode and 3mf files were added to help in the selection of settings.
 
 ![All Parts](all_parts.png)
