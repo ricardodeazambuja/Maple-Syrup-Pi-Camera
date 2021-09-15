@@ -68,7 +68,8 @@ The power consumption is kept low, compared to other products using the EdgeTPU,
 * Use it at your own risk and, please, [don't be evil](https://www.youtube.com/watch?v=b23wrRfy7SM) ;)
 
 ## Other projects you may like to check:
-* [colab_utils](https://github.com/ricardodeazambuja/colab_utils/): Some useful (or not so much) Python stuff for Google Colab notebooks
+* [RPI0_GPU_FFT](https://github.com/ricardodeazambuja/RPI0_GPU_FFT): Experiments using the RPI Zero GPU for FFT/IFFT 1D/2D.
+* [colab_utils](https://github.com/ricardodeazambuja/colab_utils/): Some useful (or not so much) Python stuff for Google Colab notebooks.
 * [ExecThatCell](https://github.com/ricardodeazambuja/ExecThatCell): (Re)Execute a Jupyter (colab) notebook cell programmatically by searching for its label.
 * [The CogniFly Project](https://github.com/thecognifly): Open-source autonomous flying robots robust to collisions and smart enough to do something interesting!
 * [Bee](https://github.com/ricardodeazambuja/Bee): The Bee simulator is an open source Spiking Neural Network (SNN) simulator, freely available, specialised in Liquid State Machine (LSM) systems with its core functions fully implemented in C.
