@@ -5,6 +5,12 @@
 
 People ask me the reason I chose to use the Raspberry Pi Zero for this project considering it's not a powerful single-board computer. I could have tried ready-made smart cameras, but the Raspberry Pi is one of the best selling general purpose computers ever [(beating the Commodore 64, numbers from 4 years ago!)](https://magpi.raspberrypi.org/articles/raspberry-pi-sales), therefore it has a huge community. This makes life much easier when you need to find a driver or how to solve a problem. In addition to that, last year I released my work on a [flexible, collision resilient, quadcopter](https://thecognifly.github.io/) that has as its brain... a Raspberry Pi Zero W! So, I'm quite familiar working with the Zero and I hope the [Raspberry Pi Foundation](https://www.raspberrypi.org/) will soon come up with an upgrade (maybe adding a RP2040 to the RPI Zero PCB?).
 
+## Updates:
+The edgetpu runtime version installed in the RPI image is 13, therefore you need to pass `-m 13` to the edgetpu_compiler. The notebooks in this repo are updated, but if you need to compile a different model:
+```
+edgetpu_compiler -m 13 -s model.tflite
+```
+
 ## How to build your own
 
 ### Hardware
