@@ -11,6 +11,10 @@ The edgetpu runtime version installed in the RPI image is 13, therefore you need
 edgetpu_compiler -m 13 -s model.tflite
 ```
 
+### **ATTENTION:**     
+The models compiled using the example notebooks that use the Model Maker will ONLY work with this script: [`model_maker_object_detection_from_cam.py`](Examples/model_maker_object_detection_from_cam.py)     
+The TL;DR; reason is: the order of the tensors in the output changed, and the pycoral version in the Maple Syrup Pi Camera image has those indices hardcoded. 
+
 ## How to build your own
 
 ### Hardware
