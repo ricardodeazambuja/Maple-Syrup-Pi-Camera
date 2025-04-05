@@ -1,5 +1,6 @@
 # Maple Syrup Pi Camera
 ## Low power('ish) AIoT smart camera (3D printed) based on the Raspberry Pi Zero W and Google Coral EdgeTPU
+The Maple Syrup Pi Camera is a low-power, 3D-printed smart camera based on the Raspberry Pi Zero W and Google Coral EdgeTPU. It's designed for on-device AI and computer vision tasks. The project takes advantage of the large Raspberry Pi community and offers both an easy setup via a pre-built SD card image and a more manual installation method. Example applications include object detection like face masks and license plates. While the Raspberry Pi Zero W limits processing speed, it contributes to the camera's low power consumption. Security precautions are advised against direct internet exposure.
 
 ![Maple-Syrup-Pi-Camera](imgs/Maple-Syrup-Pi-Camera.png)
 
